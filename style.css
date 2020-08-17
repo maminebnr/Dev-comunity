@@ -1,0 +1,366 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.nav-link {
+   color:black;
+
+}
+
+.btn-outline-success{
+  background: white;
+}
+
+.nav-link:hover{
+  color: #00BFFF;
+}
+
+.dropdown-menu a:hover{
+  color: #00BFFF;
+  }
+
+
+.row-cols-1 {
+  width: 85%;
+  padding-left: 280px;
+  padding-top: 50px;
+}
+
+
+
+
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 20rem;
+    width: 16rem;
+}
+.md-4{
+padding-left: 55px;
+}
+.navbar-brand{
+  padding-left: 70px;
+}
+
+.row-cols-md-2{
+  width:70%;
+  padding-top: 20px;
+  padding-left:450px;
+}
+/* slider  */
+/* h1{
+padding-bottom: 20px;
+
+}
+#p1{
+padding-bottom: 120px;
+font-size: 20px;
+font-weight: bold;
+} */
+
+.carousel-item{
+height: 100vh;
+min-height:300px;
+background:no-repeat center center scroll;
+background-size: cover;
+}
+.aa{
+  bottom: 270px;
+}
+.carousel-caption h1{
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p{
+  width:75%;
+  margin: auto;
+  font-size: 18px;
+  line-height:1.9;
+}
+
+
+/* .d-block{
+  filter: hue-rotate(20deg);
+} */
+
+
+.apprendre{
+  width: 100%;
+}
+#app{
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  text-align: center;
+    text-shadow: 0 0 3px #FF0000;
+}
+
+/*  css page contact */
+.container1 {
+  margin-top: 30px;
+    display: inline-block;
+    position: relative;
+
+}
+
+
+
+.container1 .text {
+    background: white;
+    z-index: 1;
+    position: absolute;
+    text-align: left;
+    padding-left: 40px;
+    font-family: Georgia;
+   margin: 0 auto;
+    left: 350px;
+    top: 30%;
+    color: #00005c;
+    width: 50%;
+
+}
+
+#contactimg{
+  width:800px;
+  height: 250px;
+  margin-left:  750px;
+}
+
+
+.container1 .gris{
+    position: absolute;
+        z-index: -1;
+    height:250px;
+    width:800px;
+    background: #f0f0f0;
+    left:0px;
+    top:0px;
+}
+
+
+
+
+#contacter-nous{
+  text-align: center;
+  padding-top: 40px;
+  color:#00005c;
+}
+
+
+#souligne{
+  text-decoration-color: #e3b04b;
+position: relative;
+
+}
+
+.block{
+  width: 50%;
+  box-sizing:border-box;
+  float: left;
+  border-left: 1px outset #e0dede;
+margin-top:40px;
+}
+
+#para{
+  padding-left: 150px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color:  #00005c;
+}
+#title{
+    padding-left: 100px;
+    font-family: sans-serif;
+    color: #00005c;
+}
+
+.form-group{
+  padding-left: 100px;
+   margin-top :2px;
+}
+
+
+#btn-msg{
+  width:150px;
+  background-color: #e3b04b;
+  color:#00005c;
+  font-weight: bold;
+}
+
+.blc{
+  padding-top: 50px;
+}
+.corrdonne{
+  padding-left: 150px;
+  padding-top:10px;
+}
+
+.rep{
+  color: #888888;
+}
+
+
+/* css page inscription  */
+
+.center{
+  margin-top: 40px;
+  padding-top: 30px;
+  width:600px;
+  height:600px;
+  background: white;
+position: relative;
+left: 500px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+    border-radius: 10px;
+
+}
+.form-row{
+  padding-left: 100px;
+   margin-top :2px;
+}
+
+
+#title-inscription{
+    color:#d54062;
+}
+
+#p-form{
+  color:#00005c;
+  padding-top: 10px;
+}
+
+.btn-insc{
+    padding-top: 10px;
+}
+
+#compte{
+  padding-top:10px;
+}
+
+/* footer   */
+
+
+footer{
+  margin-top: 40px;
+  height: 80px;
+  width: 100%;
+  background: #888888;
+}
+#footer{
+padding-left: 200px;
+padding-top: 25px;
+
+}
+
+
+
+/* a propos */
+
+.img-fluid{
+  width:100%;
+}
+
+.banner{
+  background:url("img/groupe1.png")no-repeat center center fixed;
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+   overflow: hidden;
+filter: saturate(50%);
+}
+
+
+.banner-items{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14% ;
+  margin: auto;
+color:#00005c;
+text-align: center;
+width: 48%;
+}
+
+
+.banner-items h2{
+font-size: 3em;
+margin-bottom: 20px;
+text-transform: uppercase;
+color: #00005c;
+}
+
+
+#prop{
+padding-top: 20px;
+  text-align: center;
+  color: #00005c;
+  padding-bottom: 20px;
+}
+.main-content{
+  display:flex;
+  flex-flow: row wrap ;
+    justify-content:space-between;
+    /* margin-top: 30px; */
+    padding:4% 0px;
+
+}
+.main-content{
+  display: flex;
+  margin-left:40px;
+
+
+}
+.main1{
+  -ms-flex:1;
+flex:1;
+width: 50%;
+box-sizing: border-box;
+}
+
+#hr{
+width:70px;;
+height: 3px;
+background-color:  #e3b04b;
+margin-left: 190px;
+}
+
+#blck{
+  background:#f0f0f0;
+
+}
+
+.card-title{
+    color: #00005c;
+text-align: center;
+
+}
+
+.card-img-top{
+  width:100px;
+  height: 200px;
+  padding-top: 5px;
+}
+.card-text{
+
+  text-align: center;
+}
+
+#notre-equipe{
+  padding-top: 70px;
+  color: #00005c;
+  text-align: center;
+  font-weight: bold;
+}
+
+#p-equipe{
+  text-align: center;
+  padding-top: 20px;
+}
+#cnt{
+  padding-top:50px;
+
+}

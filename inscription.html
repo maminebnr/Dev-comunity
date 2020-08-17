@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>inscription</title>
+      <link rel="stylesheet" media="screen" type="text/css"  href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-light bg-white ">
+      <a class="navbar-brand" href="index.html">
+        <img id="logo" src="img/logo.png" width="70" height="70" alt=""    loading="lazy">
+      </a>
+
+
+          <ul class="nav justify-content-end">
+          <li><a class="navbar-brand" src=></a></li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="apropos.html">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Blog</a>
+              <div class="dropdown-menu" >
+                <a class="dropdown-item" href="#">HTML5</a>
+                <a class="dropdown-item" href="#">CSS3</a>
+                <a class="dropdown-item" href="#">Java Script</a>
+                <a class="dropdown-item" href="#">Boostrap</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">React</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="inscription.html">Inscription</a>
+            </li>
+            <li>
+          <form class="form-inline my-2 my-lg-0">
+           <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
+           <button class="btn btn-info my-2 my-sm-0" type="submit">Recherche</button>
+         </form></li>
+         </ul>
+    </nav>
+
+
+
+    <div class="container1">
+          <img id="contactimg" src="img/loged.jpg">
+          <div class="text">
+            <h1><u   style="text-decoration-color:#e3b04b;" >I</u>nscription</h1>
+          </div>
+      <div class="gris"></div>
+        </div>
+
+<h1 id="contacter-nous">Inscri<u id="souligne">vez</u> vous </h1>
+<div class="center">
+<h4 id="title-inscription">Inscription gratuite et facile </h4>
+<p id="p-form">Merci de saisir vos informations</p>
+
+<form>
+  <div class="form-row">
+    <div class="col-md-9 mb-3">
+      <input type="text" class="form-control" id="validationDefault01" Placeholder="Nom" required>
+    </div>
+      </div>
+        <div class="form-row">
+    <div class="col-md-9 mb-3">
+      <input type="text" class="form-control" id="validationDefault02" placeholder="Prénom" required>
+    </div>
+    </div>
+
+    <div class="form-row">
+
+    <div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline1">Femme</label>
+</div>
+<div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline2">Homme</label>
+</div>
+</div>
+<div class="form-row">
+  <div class="col-md-9 mb-3">
+    <input type="text" class="form-control" id="validationDefault01" Placeholder="Localité" required>
+  </div>
+    </div>
+      <div class="form-row">
+  <div class="col-md-9 mb-3">
+    <input type="text" class="form-control" id="validationDefault02" placeholder="Numéro de téléphone" required>
+  </div>
+  </div>
+<div class="form-row">
+<div class="col-md-9 mb-3">
+<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+</div>
+</div>
+<div class="form-row">
+<div class="col-md-9 mb-3">
+<input type="password" id="inputPassword6" class="form-control " aria-describedby="passwordHelpInline" placeholder="Mot de passe">
+</div>
+</div>
+
+<div class="btn-insc">
+  <button  class="btn btn-primary" type="submit" >Inscription</button>
+  <button   type="button" class="btn btn-danger" >Annuler</button>
+</div>
+<p id="compte">  Vous avez déjà un compte ? <a href="connexion.html">Connectez-vous</a></p>
+</form>
+  </div>
+
+<footer><p id="footer">&copy;Copyright 2020 DevTeam /Tous droits réservés</p></footer>
+
+  </body>
+</html>
